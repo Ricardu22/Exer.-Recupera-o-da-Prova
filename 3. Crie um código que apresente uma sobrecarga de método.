@@ -1,0 +1,60 @@
+import java.Util.*;
+
+public class Main {
+
+    public static void main(String[] args) {
+        User Produto = new User("Tablet", "smartphone");
+        System.out.println(userA.output());
+        System.out.println(userA.output(false));
+
+    }
+
+}
+
+
+private class User {
+    private String Modelo;
+    private String Marca;
+
+    public User(String Modelo, String Marca) {
+        this.Modelo = modole;
+        this.Marca = marca;
+
+    }
+
+    public void setModelo(String modelo) {
+        this.Modelo = modelo;
+
+    }
+
+    public void setMarca(String marca) {
+        this.Marca = marca;
+
+    }
+
+    public String getModelo() {
+        return Modelo;
+
+    }
+
+    public String getMarca() {
+        return Marca;
+
+    }
+
+    public String output(){
+        return Modelo.toLowerCase() + " " + Marca.toLowerCase();
+
+    }
+
+    public String output(boolean showUltimoNome){
+
+        if(showMarca){
+            return output();
+
+        }
+        return Marca;
+
+    }
+
+}
