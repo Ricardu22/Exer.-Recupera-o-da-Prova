@@ -1,0 +1,34 @@
+public interface Eletronico {
+    public String Teclado();
+    public String getImei();
+
+}
+
+public interface Smartphone {
+    public String Teclado();
+    public String Visor();
+
+}
+
+public class Carregador implements Smartphone,Celular {
+    @Override
+    public String getImei() {
+
+    }
+
+    @Override
+    public String getTelcado() {
+
+    }
+
+    @Override
+    public String getModelo() {
+
+    }
+
+    @Override
+    public String getVisor() {
+
+    }
+
+}
