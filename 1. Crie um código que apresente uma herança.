@@ -1,0 +1,15 @@
+public class Eletronico {
+    public String smartphone;
+    public String modelo;
+
+}
+
+public class Tablet extends Smartphone {
+    public String Teclado;
+
+}
+
+public class Smartphone extends Celulares {
+    public int Qtd;
+
+}
